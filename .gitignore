@@ -1,0 +1,5 @@
+# Ignore large IMDb raw dataset
+data/raw/title.basics.tsv
+
+# Ignore compressed IMDb files (optional)
+data/raw/*.tsv.gz

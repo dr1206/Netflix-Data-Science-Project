@@ -1,0 +1,5 @@
+outs:
+- md5: 1996145888a6fec10bef3ed6e55f4bac
+  size: 3438507
+  hash: md5
+  path: netflix_cleaned_v1.csv
