@@ -30,8 +30,10 @@ jobs:
           pip install pytest httpx
 
       - name: Test API
+        env:
+          PYTHONPATH: .
         run: |
-          pytest -q
+          python -m pytest -q
 
 
   lint:
