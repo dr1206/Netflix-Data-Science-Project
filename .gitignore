@@ -3,3 +3,29 @@ data/raw/title.basics.tsv
 
 # Ignore compressed IMDb files (optional)
 data/raw/*.tsv.gz
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# MLflow
+mlruns/
+mlflow.db
+
+# Experiment results
+results/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
